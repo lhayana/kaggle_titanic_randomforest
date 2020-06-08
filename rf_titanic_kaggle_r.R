@@ -2,7 +2,7 @@
 library(randomForest)
 library(ggplot2)
 
-#Importar os dados
+#Importa os dados
 train_set <- read.csv("train.csv", stringsAsFactors=T)
 test_set  <- read.csv("test.csv",  stringsAsFactors=T)
 
